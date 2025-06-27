@@ -12,9 +12,13 @@ body{
             padding: 30px 0;
             font-size: 38px;
         }
+       a{
+          color: #fff;
+          font-size: 40px;
+       }
        footer{
          color:#fff;
-         font-size: 38px;
+         font-size: 40px;
        }
      
         .container{
