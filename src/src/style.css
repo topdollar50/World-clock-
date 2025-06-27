@@ -1,8 +1,37 @@
-
-h1 {
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-}
+body{
+            font-family: courier new, arial, sans serif;
+            background-color: black;
+        }
+        h1{
+            font-size: 75px;
+            text-align:center;
+            color:#fff;
+        }
+        select{
+            width:100%;
+            padding: 30px 0;
+            font-size: 38px;
+        }
+        .container{
+            padding:40px 0;
+            margin: 30px auto;
+            border: 5px solid grey;
+            background-color: black;
+            color:#fff;
+            border-radius: 15px;
+            max-width:100%;
+            box-shadow: 12px 12px 2px 1px rgba(128, 128, 128, 0.2);
+        }
+        .city{
+            margin: 20px 0;
+            padding: 30px 25px;
+            border: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+            font-size:50px;
+            box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.2);
+        }
+        .time strong{
+            font-size:80px;
+        }
