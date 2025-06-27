@@ -4,8 +4,10 @@ body{
         }
         h1{
             font-size: 75px;
+            line-height:1.5;
             text-align:center;
             color:#fff;
+            margin:70px auto;
         }
         select{
             width:100%;
