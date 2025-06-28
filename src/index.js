@@ -39,9 +39,9 @@
       <h2>${cityName}</h2>
       <div class="date">${cityTime.format("MMMM        Do YYYY")}</div>
     </div>
-    <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
+    <div class="time">${cityTime.format("h:mm:ss")} <strong>${cityTime.format(
     "A"
-  )}</small></div>
+  )}</strong></div>
   <a href ="index.html">Back to Homepage</a>
   </div>
   `;
