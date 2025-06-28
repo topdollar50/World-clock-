@@ -24,6 +24,7 @@
        
        casablancaTimeElement.innerHTML= casablancaTime.format("h:mm:ss [<strong>]A[</strong>]");
        }
+
        function updateCity(event) {
        let cityTimeZone = event.target.value;
        let cityName = cityTimeZone.replace("_", " ").split("/")[1];
@@ -44,8 +45,5 @@
 
        updateCasablanca();
        setInterval(updateCasablanca, 1000);
-
-
-       
-       let citySelectElement = document.querySelector("#city");
-       citySelectElement.addEventListener("change", updateCity);
+       let citiesSelectElement = document.querySelector("#city");
+       citiesSelectElement.addEventListener("change", updateCity);
