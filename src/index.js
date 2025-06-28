@@ -42,7 +42,6 @@
   </div>
   `;
 }
-
        updateCasablanca();
        setInterval(updateCasablanca, 1000);
        let citiesSelectElement = document.querySelector("#city");
