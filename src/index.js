@@ -48,7 +48,5 @@
 }
        updateCasablanca();
        setInterval(updateCasablanca, 1000);
-       updateCity();
-       setInterval(updateCity,1000);
        let citiesSelectElement = document.querySelector("#city");
        citiesSelectElement.addEventListener("change", updateCity);
